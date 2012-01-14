@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../override.css" type="text/css"><meta name="keywords" content="Utils,net.FPStats.Utils,addValue,callGC,clearValues,clone,copyProperties,createDefaultTextField,getHistory,getTextField,init,init,padLeft,reset,resize,setProperties,setTextProps,setTextProps,start,stop,timeFormat,update,update,updateTextPos,updateTextPos"><title>net.FPStats.Utils</title></head><body><script language="javascript" type="text/javascript" src="../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../help.js"></script><script language="javascript" type="text/javascript" src="../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'Utils - API Documentation';
+				var baseRef = '../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">API Documentation</td><td class="titleTableTopNav" align="right"><a href="../../package-summary.html" onclick="loadClassListFrame('../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../class-summary.html" onclick="loadClassListFrame('../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../all-index-A.html" onclick="loadClassListFrame('../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../index.html?net/FPStats/Utils.html&amp;net/FPStats/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">Utils</td><td class="titleTableSubNav" id="subNav" align="right"><a href="#methodSummary">Methods</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Utils"); titleBar_setSubNav(false,false,false,false,false,false,false,false,true,false,false	,false,false,false,false,false);}	
+				-->
+			</script><div xmlns:fn="http://www.w3.org/2005/xpath-functions" class="MainContent"><table class="classHeaderTable" cellpadding="0" cellspacing="0"><tr><td class="classHeaderTableLabel">Package</td><td><a href="package-detail.html" onclick="javascript:loadClassListFrame('class-list.html')">net.FPStats</a></td></tr><tr><td class="classHeaderTableLabel">Class</td><td class="classSignature">public  class  Utils</td></tr><tr><td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">Utils  <img src="../../images/inherit-arrow.gif" title="Inheritance" alt="Inheritance" class="inheritArrow"> Object</td></tr></table><p></p><p></p><p></p>
+	 A static class with some utility functions. Used in FPStats and GraphSprite.
+	 
+	 <p></p><br/><hr></div><a name="methodSummary"></a><div class="summarySection"><div class="summaryTableTitle">Public Methods </div><table cellspacing="0" cellpadding="3" class="summaryTable " id="summaryTableMethod"><tr><th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined By</th></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#clone()" class="signatureLink">clone</a>(obj:Object):*</div><div class="summaryTableDescription">[static]  Clone an object (creating a new instance and making a shallow copy of all properties)
+		 </div></td><td class="summaryTableOwnerCol">Utils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#copyProperties()" class="signatureLink">copyProperties</a>(src:*, dest:*):void</div><div class="summaryTableDescription">[static] 
+		 Copy all src properties (public variables and readwrite-able properties) into dest
+		 </div></td><td class="summaryTableOwnerCol">Utils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#padLeft()" class="signatureLink">padLeft</a>(length:int, text:String, padChar:String =  ):String</div><div class="summaryTableDescription">[static] 
+		 Left pad a string (using padChar as padding char)
+		 </div></td><td class="summaryTableOwnerCol">Utils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setProperties()" class="signatureLink">setProperties</a>(obj:Object, properties:Object, defaultProperties:Object = null):void</div><div class="summaryTableDescription">[static] 
+		 Set properties of obj assigning defaultProperties first
+		 </div></td><td class="summaryTableOwnerCol">Utils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#setTextProps()" class="signatureLink">setTextProps</a>(textFieldObj:TextField, properties:Object):void</div><div class="summaryTableDescription">[static] 
+		 Set textField and textFormat properties of textFieldObj
+		 </div></td><td class="summaryTableOwnerCol">Utils</td></tr><tr class=""><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><div class="summarySignature"><a href="#timeFormat()" class="signatureLink">timeFormat</a>(seconds:Number, showMS:Boolean = false, precisionMS:int = 3):String</div><div class="summaryTableDescription">[static] 
+		 Return a string representing time in a more readable format (hh:mm:ss.ms)
+		 </div></td><td class="summaryTableOwnerCol">Utils</td></tr></table></div><script language="javascript" type="text/javascript"><!--
+										showHideInherited();
+										--></script><div class="MainContent"><a name="methodDetail"></a><div class="detailSectionHeader">Method Detail</div><a name="clone()"></a><a name="clone(Object)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">clone</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td></tr></table><div class="detailBody"><code> public static function clone(obj:Object):*</code><p></p><p></p><p> Clone an object (creating a new instance and making a shallow copy of all properties)
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">obj</span>:Object</code> &mdash; 	object to clone (its class _must_ have a parameterless constructor)
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>*</code> &mdash; a clone of obj </td></tr></table></div><a name="copyProperties()"></a><a name="copyProperties(any,any)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">copyProperties</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function copyProperties(src:*, dest:*):void</code><p></p><p></p><p>
+		 Copy all src properties (public variables and readwrite-able properties) into dest
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">src</span>:*</code> &mdash; 	source object
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">dest</span>:*</code> &mdash; destination object
+		 </td></tr></table></p></div><a name="padLeft()"></a><a name="padLeft(int,String,String)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">padLeft</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function padLeft(length:int, text:String, padChar:String =  ):String</code><p></p><p></p><p>
+		 Left pad a string (using padChar as padding char)
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">length</span>:int</code> &mdash; 	desired characters length of the output string
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">text</span>:String</code> &mdash; 	string to pad
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">padChar</span>:String</code> (default = <code> </code>)<code></code> &mdash; 	padding char (defaults to " ")
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; padded string
+		 
+		 <p>
+		 Example: 
+		 <div class="listing"><pre>
+         padLeft(5, "12", "0")         
+         </pre></div>
+		 </p>
+		 returns "00012"
+		 </td></tr></table></div><a name="setProperties()"></a><a name="setProperties(Object,Object,Object)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setProperties</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function setProperties(obj:Object, properties:Object, defaultProperties:Object = null):void</code><p></p><p></p><p>
+		 Set properties of obj assigning defaultProperties first
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">obj</span>:Object</code> &mdash; 					object on which properties will be set
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">properties</span>:Object</code> &mdash; 			properties to assign
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">defaultProperties</span>:Object</code> (default = <code>null</code>)<code></code> &mdash; 	default properties to assign first
+		 
+		 <p>
+		 Example: 
+		 <div class="listing"><pre>
+         setProperties(textField, {text: "lorem ipsum", alpha: .5}, {textColor = 0xFFFFFF, alpha: 1});        
+         </pre></div>
+		 </p>
+		 </td></tr></table></p></div><a name="setTextProps()"></a><a name="setTextProps(flash.text.TextField,Object)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">setTextProps</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function setTextProps(textFieldObj:TextField, properties:Object):void</code><p></p><p></p><p>
+		 Set textField and textFormat properties of textFieldObj
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">textFieldObj</span>:TextField</code> &mdash; 	textField on which properties will be set
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">properties</span>:Object</code> &mdash; 		properties to assign
+		 
+		 <p>
+		 Example: 
+		 <div class="listing"><pre>
+         setTextProps(textFieldObj, {x:120, bold:true, font:"_typewriter"});        
+         </pre></div>
+		 </p>
+		 </td></tr></table></p></div><a name="timeFormat()"></a><a name="timeFormat(Number,Boolean,int)"></a><table class="detailHeader" cellpadding="0" cellspacing="0"><tr><td class="detailHeaderName">timeFormat</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td></tr></table><div class="detailBody"><code> public static function timeFormat(seconds:Number, showMS:Boolean = false, precisionMS:int = 3):String</code><p></p><p></p><p>
+		 Return a string representing time in a more readable format (hh:mm:ss.ms)
+		 </p><p><span class="label"> Parameters </span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20px"></td><td><code><span class="label">seconds</span>:Number</code> &mdash; 		time to format in seconds
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">showMS</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; 		true to show milliseconds
+		 </td></tr><tr><td class="paramSpacer">&nbsp;</td></tr><tr><td width="20px"></td><td><code><span class="label">precisionMS</span>:int</code> (default = <code>3</code>)<code></code> &mdash; 	number of ms digits to show
+		 
+		 </td></tr></table></p><p></p><span class="label">Returns</span><table cellpadding="0" cellspacing="0" border="0"><tr><td width="20"></td><td><code>String</code> &mdash; formatted string
+		 
+		 <p>
+		 Example: 
+		 <div class="listing"><pre>
+         timeFormat(3700.732, true, 2);             
+         </pre></div>
+		 </p>
+		 returns "01:01:40.73"
+		 </td></tr></table></div><br/><br/><hr><br/><p></p><center class="copyright"><footer></footer><br/>sabato gennaio 14 2012, 02:15 AM +01:00  </center></div></body></html><!--<br/>sabato gennaio 14 2012, 02:15 AM +01:00  -->
