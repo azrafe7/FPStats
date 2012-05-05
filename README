@@ -1,1 +1,5 @@
-FPStats Project - first commit!
+FPStats (FlashPunk Statistics) Project
+
+A bunch of classes for monitoring FPS and memory usage showing values on graphs in real time. Integrates with - and uses - FlashPunk 1.6.
+
+See the Wiki for more info.
