@@ -43,14 +43,14 @@ package
 			textEntity.layer = -1;
 			FP.world.add(textEntity);
 			
-			stats = new FPStats(10, 30, 150, 70, true, false, true, false);
-			stats.VALUES_TEXT_SPACE = 0;
+			stats = new FPStats(10, 30, 0, 0, true);
+			/*stats.VALUES_TEXT_SPACE = 0;
 			//stats.fpsGraph.historyAutoExpand = stats.memGraph.historyAutoExpand = true;
 			stats.showFpsAverage = true;
 			stats.showElapsed = stats.showMemAverage = false;
 			stats.showFpsValues = true;
 			stats.fpsGraph.showMax = false;
-			stats.showMemValues = true;
+			stats.showMemValues = true;*/
 			FP.stage.addChild(stats);
 			//stats.start();
 			trace(stats.HEIGHT);
